@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shake King Menu</title>
+    <link rel="stylesheet" href="home.html">
+    <link rel="stylesheet" href="about.html">
+    <link rel="stylesheet" href="menu.html">
+    <link rel="stylesheet" href="explore.html">
+    <link rel="stylesheet" href="contact.html">
+
+    <link rel="stylesheet" href="common.css">
+</head>
+<style>
+    body {
+        background-color: rgb(201, 185, 135);
+    }
+
+    .flex-menu {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    h1 {
+        text-shadow: 2px 2px #FF0000;
+        color: rgb(2, 70, 40);
+    font-size: 70px;
+    }
+
+    .flex-menu>div {
+        width: 50%;
+        color: rgb(0, 0, 0);
+        font-size: 25px;
+        font-style: bold;
+        text-align: center;
+    }
+
+    .flex-menu+div {
+        flex-grow: 20;
+
+    }
+</style>
+
+<body>
+    <!-- navbar  -->
+    <div class="navbar">
+        <ul class="nav_ul">
+            <li class="nav_ul_li"><a href="home.html" class="nav_ul_li_item">Home</a></li>
+            <li class="nav_ul_li"><a href="about.html" class="nav_ul_li_item">About</a></li>
+            <li class="nav_ul_li"><a href="services.html" class="nav_ul_li_item">Services</a></li>
+            <li class="nav_ul_li"><a href="menu.html" class="nav_ul_li_item">Menu</a></li>
+            <li class="nav_ul_li"><a href="contact.html" class="nav_ul_li_item">Contact</a></li>
+            <!-- <li class="nav_ul_li"><a href="explore.html" class="nav_ul_li_item">Explore</a></li> -->
+            <!-- <li class="nav_ul_li"><a href="#" class="nav_ul_li_item">Blog</a></li>               -->
+            <!-- <li class="nav_ul_li"><a href="#" class="nav_ul_li_item">Gallary</a></li>               -->
+            <!-- <li class="nav_ul_li"><a href="#" class="nav_ul_li_item">banquets</a></li>               -->
+            <!-- <li class="nav_ul_li"><a href="#" class="nav_ul_li_item">Career</a></li>               -->
+            <!-- <li class="nav_ul_li"><a href="#" class="nav_ul_li_item">feedback</a></li>               -->
+            <!-- <li class="nav_ul_li"><a href="#" class="nav_ul_li_item">Gallary</a></li>               -->
+            <input class="search" type="text" placeholder="Search">
+            <button class="btnn">Submit</button>
+        </ul>
+    </div>
+
+    <!-- Flex menu -->
+    <div class="flex-menu">
+        <div class="burger" style="flex-grow: 10">
+            <h1>_______Burger_______</h1>
+            <p>1. Big Maharaja Burger&emsp; &emsp; &emsp; &emsp; &emsp; &emsp; 130/-</p>
+            <p>2. Primiun Big Crunch Burger&emsp; &emsp; &emsp; &emsp;140/-</p>
+            <p>3. Chock a block - Burger&emsp; &emsp; &emsp; &emsp; &emsp; &nbsp;115/-</p>
+            <p>4. chef's Choice Burger&emsp; &emsp; &emsp; &emsp; &emsp; &emsp;&nbsp;125/-</p>
+            <p>5. Aloo Tikki Burger&emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &nbsp;50/-</p>
+            <p>6. murphy Cheese Burger&emsp; &emsp; &emsp; &emsp; &emsp; &nbsp;&nbsp; 80/-</p>
+            <p>7. murphy Prime Burger&emsp; &emsp; &emsp; &emsp; &emsp; &emsp; 70/-</p>
+            <p>8. Veg Chilli Lava Burger&emsp; &emsp; &emsp; &emsp; &emsp; &nbsp;110/-</p>
+            <p>9. Crusty Burger&emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &nbsp;&nbsp;95/-</p>
+            <p>10. Dual Veg Crusty Burger&emsp; &emsp; &emsp; &emsp; &nbsp;&nbsp;110/-</p>
+            <p>11. Sovereign Burger&emsp; &emsp; &emsp; &emsp; &emsp; &emsp;&emsp;&nbsp;85/-</p>
+            <p>12. Exotic Burger&emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp;&emsp;115/-</p>
+            <p>13. Spinacia Sweet Corn Burger&emsp; &emsp; &emsp; &nbsp;&nbsp;80/-</p>
+            <p>14. Crunchy Burger&emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; 105/-</p>
+            <p>15. Veg Burger&emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp;70/-</p>
+            <p>16. Veg Schezwan Burger&emsp; &emsp; &emsp; &emsp; &emsp; 100/-</p>
+            <p>17. Cottage Cheese Burger&emsp; &emsp; &emsp; &emsp; &nbsp; &nbsp; 100/-</p>
+            <p>18. Cottage Cheese Crunchy Burger&emsp; &emsp;125/-</p>
+            <p>19. Cottage Cheese Peri-Peri Burger&emsp;&emsp;115/-</p>
+            <p>20. Cottage Cheese Maharaja Burger&emsp; &nbsp;&nbsp;140/-</p>
+            <p>&nbsp;</p>
+            <p>&nbsp;</p>
+            <h1>____Grilled Burger____</h1>
+            <p>21. Vegen Grilled Burger&emsp; &nbsp; &nbsp;&emsp; &nbsp; &nbsp; &emsp; &emsp;&nbsp; 90/-</p>
+            <p>22. Dual Grilled Burger&emsp; &nbsp; &nbsp;&emsp; &nbsp; &nbsp;&emsp; &emsp; &nbsp; 110/-</p>
+            <p>23. Trio Grilled Burger&emsp; &nbsp; &nbsp;&emsp; &nbsp; &nbsp; &emsp; &emsp; &nbsp; 130/-</p>
+        </div>
+        <div class="burgerPhoto">
+            <p>&nbsp;</p>
+            <p>&nbsp;</p>
+            <p>&nbsp;</p>
+            <img src="img/burger.jpg" alt="">
+        </div>
+
+        <div class="sandwich">
+            <p>&nbsp;</p>
+            <p>&nbsp;</p>
+            <h1>______Sandwich______</h1>
+            <p>24. Mexican Sandwich &emsp; &nbsp; &nbsp; &emsp; &nbsp; &nbsp; &emsp; &nbsp; &nbsp; &nbsp; &nbsp; 60/-</p>
+            <p>25. Mexican Cheese Sandwich &emsp; &nbsp; &nbsp; &emsp; &nbsp; &nbsp; 80/-</p>
+            <p>26. Veg Raslla Sandwich &emsp; &nbsp; &nbsp; &emsp; &nbsp; &nbsp; &emsp; &nbsp; &nbsp; 85/-</p>
+            <p>27. Veg Rasalla Cheese Sandwich &emsp; &emsp; &nbsp; &nbsp;95/-</p>
+            <p>28. Veg Colesaw Sandwich &emsp; &nbsp; &nbsp; &emsp; &nbsp; &nbsp; &emsp; 55/-</p>
+            <p>29. Chilli Lava Sandwich &emsp; &nbsp; &nbsp; &emsp; &nbsp; &nbsp; &emsp; &nbsp; &nbsp;80/-</p>
+            <p>30. Chilli Lava Cheese Sandwich &emsp; &nbsp; &nbsp; &emsp;95/-</p>
+            <p>31. Cottage Cheese Tang Sandwich &emsp; &nbsp; &nbsp;120/-</p>
+            <p>32. Sweet Corn Sandwich &emsp; &nbsp; &nbsp; &emsp; &nbsp; &emsp; &nbsp; 100/-</p>
+            <p>33. Veg Cheese Sandwich &emsp; &nbsp; &nbsp; &emsp; &nbsp; &emsp; &nbsp; &nbsp; 80/-</p>
+            <p>34. Vegen Jumble Sandwich &emsp; &nbsp; &nbsp; &emsp; &nbsp; &emsp; 95/-</p>
+            <p>35. Veg Club Sandwich &emsp; &nbsp; &nbsp; &emsp; &nbsp; &nbsp; &emsp; &nbsp; &nbsp; 100/-</p>
+        </div>
+        <div class="sandwichPhoto">
+            <img src="img/sandwich.jpg" alt="">
+        </div>
+        <div class="wraps">
+            <p>&nbsp;</p>
+            <p>&nbsp;</p>
+            <h1>_______Wraps_______</h1>
+            <p>36. Sweet Corn Wraps&emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp;90/-</p>
+            <p>37. Cottage Cheese Wraps &emsp; &emsp; &emsp; &emsp; &emsp; &nbsp; 95/-</p>
+            <p>38. Cottage Cheese Tangy Wraps &emsp; &emsp; &emsp;100/-</p>
+            <p>39. Murphy Wraps &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp;80/-</p>
+            <p>40. Tickest Wraps &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; 90/-</p>
+            <p>41. Vegan Zesty Wraps &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; 115/-</p>
+            <p>&nbsp;</p>
+            <p>&nbsp;</p>
+            <div class="roll">
+                <h1>________Roll________</h1>
+                <p>42. Vegan Sala Roll &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp;60/-</p>
+                <p>43. Cottage Cheese Roll &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &nbsp; 70/-</p>
+            </div>
+        </div>
+        <div class="wrapsPhoto">
+            <img src="img/wraps.jpg" alt="">
+        </div>
+        <div class="shakes">
+            <p>&nbsp;</p>
+            <p>&nbsp;</p>
+                <h1>_______Shakes_______</h1>
+                <p>44. Strawberry Oreo Shake &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; 95/-</p>
+                <p>45. Kit Kat Shake &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &nbsp; &nbsp; 90/-</p>
+                <p>46. Cold Coffee &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &nbsp; 85/-</p>
+                <p>47. Irsh Coffee Shake &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &nbsp;105/-</p>
+                <p>48. Hazelnut Coffee &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; 95/-</p>
+                <p>49. Oreo Shake &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &nbsp; 75/-</p>
+                <p>50. Strawberry Shake &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &nbsp; &nbsp;79/-</p>
+                <p>51. Fruit Punch Shake &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &nbsp; 80/-</p>
+                <p>52. Butter Scotch Shake &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &nbsp; &nbsp; 85/-</p>
+                <p>53. Mango Shake &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &nbsp; &nbsp; 90/-</p>
+                <p>54. Pineapple Shake &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &nbsp; &nbsp; 95/-</p>
+                <p>55. Choco Chip Shake &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &nbsp; &nbsp; 110/-</p>
+                <p>56. Kiwi Shake &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &nbsp; 80/-</p>
+                <p>57. Banana Shake &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &nbsp; &nbsp; 85/-</p>
+                <p>58. Watermelon Shake &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &nbsp; &nbsp; &nbsp; 90/-</p>
+                <p>59. Orange Shake &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &nbsp; &nbsp;95/-</p>
+                <p>60. Pan Shake &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &nbsp; &nbsp; 95/-</p>
+                <p>61. Dairy Milk Nut Shake &emsp; &emsp; &emsp; &emsp; &emsp; &nbsp; &nbsp;110/-</p>
+                <p>62. Black Current Shake &emsp; &emsp; &emsp; &emsp; &emsp; &nbsp; &nbsp; &nbsp; &nbsp; 95/-</p>
+        </div>
+        <div class="shakePhoto">
+            <p>&nbsp;</p>
+            <p>&nbsp;</p>
+            <img src="img/shakes.jpg" alt="">
+        </div>
+        <div class="onTheSite">
+            <p>&nbsp;</p>
+            <p>&nbsp;</p>
+            <h1>_____On The Side_____</h1>
+            <p>63. Classic Small Fries &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; 55/-</p>
+            <p>64. Classic Large Fries &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; 95/-</p>
+            <p>65. Classic Lodded Fries &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; 120/-</p>
+            <p>66. Vegan Pop (6) &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp;  &nbsp; 70/-</p>
+            <p>67. Vegan Pop (12) &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp;  &nbsp;  &nbsp; 120/-</p>
+            <p>68. Cheese Corn Pop (6) &emsp; &emsp; &emsp; &emsp; &emsp; &emsp;  &nbsp; &nbsp;70/-</p>
+            <p>69. Cheese Corn Pop (12) &emsp; &emsp; &emsp; &emsp; &emsp;  &nbsp; &nbsp;130/-</p>
+            <p>70. Peri Peri Fries &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp;  &nbsp;  &nbsp; &nbsp;100/-</p>
+        </div>
+        <div class="onTheSidePhoto">
+            <p>&nbsp;</p>
+            <img src="img/on the side.jpg" alt="">
+        </div>
+        <div class="combos">
+            <p>&nbsp;</p>
+            <p>&nbsp;</p>
+            <h1>______Combos_______</h1>
+            <p>71. Dual Veg Crusty Burger &emsp; &emsp; &emsp; &emsp; &emsp; 180/-</p>
+            <p style="font-size: 20px;">(Dual Crusty Burger + Cold Coffee + Classic Fries)</p>
+            <p>72. Soveging Combo &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; 120/-</p>
+            <p style="font-size: 20px;">(Sovereign Burger + Corn Pop + Coke)</p>
+            <p>73. Big Maharaja Combo &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; 220/-</p>
+            <p style="font-size: 20px;">(Big Maharaja Burger + Cold Coffee + Classic Fries)</p>
+            <p>74. Sunup Combo &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp;  110/-</p>
+            <p style="font-size: 20px;">(Veg Cheese + Fruit Juice + Classic Fries)</p>
+            <p>75. Thicknest Combo &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; 110/-</p>
+            <p style="font-size: 20px;">(Thicknest + W + Vegan-Pop + Classic Fries)</p>
+            <p>76. Exotic Burger Combo &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; 180/-</p>
+            <p style="font-size: 20px;">(Exotic Burger + Cheese Corn + Chocolate Shake)</p>
+            <p>78. Choco Lava &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp;&emsp;70/-</p>
+            <p>&nbsp;</p>
+            <p>&nbsp;</p>
+            <p>&nbsp;</p>
+        </div>
+        <div class="CombosPhoto">
+            <p>&nbsp;</p>
+            <p>&nbsp;</p>
+            <img src="img/combo.jpg" alt="">
+        </div>
+        
+    </div>
+
+    <!-- Footer -->
+    <section class="main-footer">
+        <div class="footer">
+            <div class="quick-link">
+                <div>
+                    <a href="/about.html">Our Story</a>
+                </div>
+                <div>
+                    <a href="/news">News</a>
+                </div>
+                <div>
+                    <a href="/career">Career</a>
+                </div>
+                <div>
+                    <a href="faq">FAQ</a>
+                </div>
+                <div>
+                    <a href="Our-Partnership"></a>
+                </div>
+                <div>
+                    <a href="/contact.css">Location</a>
+                </div>
+                <div>
+                    <a href="/blog">Blog</a>
+                </div>
+            </div>
+            <div class="reach-us">
+                <div>
+                    <p>Mail Us</p>
+                    <a href="">niteshsahujhansi@gmail.com</a>
+                </div>
+                <div>
+                    <p>Call Us</p>
+                    <a href="">8400306960</a>
+                </div>
+            </div>
+            <div class="app">
+                <p>Dounload the App</p>
+                <a href=""><img src="img/appleStore.png" alt=""></a>
+                <p></p>
+                <a href=""><img src="img/googlePlay.png" alt=""></a>
+
+
+            </div>
+        </div>
+        <!-- footer-2 -->
+        <div class="footer3">
+            <a href="">@ 2019 Copyright all Right Reserved</a>
+            <a href="">Terms and Conditions</a>
+            <a href="">Privacy Policy</a>
+            <a href="facebook.com">Facebook</a>
+            <a href="twitter.com">Twitter</a>
+            <a href="www.instagram.com">Instagram</a>
+            <a href="youtube.com">YouTube</a>
+        </div>
+    </section>
+
+
+</body>
+
+</html>
